@@ -30,7 +30,8 @@ flags, each one you can explain.
 - `baseline.py`: one red flag, end to end. Copy it and add your rules to `flags()`.
 - `check.py`: run it before sending. It fails on untraceable flags and on accusation words.
 - `fetch_data.py`: rebuilds the data from the USAspending API. Optional.
-- `LICENSE`: MIT, for the code. The data is U.S. federal public domain.
+- `LICENSE`: MIT, for the code. The data in `data/` is derived from USAspending.gov,
+  a work of the U.S. federal government, and is in the public domain.
 
 ## What to send
 
