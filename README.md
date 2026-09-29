@@ -11,9 +11,13 @@ one sentence.
 No installs. Python 3.8 or newer, standard library only.
 
 ```
+git clone https://github.com/Multi-Sync/public-money-watch.git
+cd public-money-watch
 python3 baseline.py           # 470 flags on 2,358 awards -> flags.csv
 python3 check.py flags.csv    # passes, and warns: 19.9% of awards is too many to read
 ```
+
+Fork it, or start a repo of your own and copy these files in. Either is fine.
 
 The baseline flags competed awards that drew a single offer. It is correct, and it is too
 blunt: it circles one award in five. Round 1 is about doing better than that. Fewer, sharper
